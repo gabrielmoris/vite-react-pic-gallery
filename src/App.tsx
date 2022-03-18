@@ -5,10 +5,10 @@ import PicGallery from "react-pic-gallery";
 function App() {
     const options = {
         customLoadComponent: () => <h3>Loading</h3>,
-        hidePagination: true,
-        externalLightbox: false,// IF I PUT HERE TRUE IT DOESN't OPEN THE IMG
-        rowHeight: '500px',
-        picsPerRow:3
+        hidePagination: false,
+        // externalLightbox: true,
+        rowHeight: "500px",
+        picsPerRow: 2,
     };
 
     const listOfImages = [
@@ -24,9 +24,13 @@ function App() {
 
     return (
         <div className="App">
-            <PicGallery className="imgs" imgList={listOfImages}
-             options={options}
-              />
+            <div className="wrap">
+                <PicGallery
+                    className="imgs"
+                    imgList={listOfImages}
+                    options={options}
+                />
+            </div>
         </div>
     );
 }
