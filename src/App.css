@@ -10,7 +10,8 @@
 }
 
 .wrap {
+    padding-top:5%;
     width: 80%;
     height: 80%;
-    background-color: black;
+    /* background-color: black; */
 }

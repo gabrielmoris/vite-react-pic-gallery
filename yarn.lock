@@ -639,10 +639,10 @@ react-dom@^17.0.2:
     object-assign "^4.1.1"
     scheduler "^0.20.2"
 
-react-pic-gallery@^1.5.10:
-  version "1.5.10"
-  resolved "https://registry.yarnpkg.com/react-pic-gallery/-/react-pic-gallery-1.5.10.tgz#e680dcfb3836f1b16e3841cf98694bc4f6321c4e"
-  integrity sha512-XeH6aAfzTOl9GuwdlgIxoRGNhy5AWi8SMvC0rezqgvs04M/L329lSaDfL6IVIuCnRfW7Dmk80jTCzf1g+9zPBg==
+react-pic-gallery@^1.5.15:
+  version "1.5.15"
+  resolved "https://registry.yarnpkg.com/react-pic-gallery/-/react-pic-gallery-1.5.15.tgz#6268e37c9ece3c167b4d3cc8f52498bc304aa6be"
+  integrity sha512-eawMCElYTG4XoKlgwEuJCVlgBU9f1kHgqMK35OumsY3gnIfW1xst9FlFIDOYnl8rfx//4QU9vzpmuOfwyeRi6w==
   dependencies:
     react-zoom-pan-pinch "^2.1.3"
 
